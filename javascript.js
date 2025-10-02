@@ -3,7 +3,7 @@
 
 // 1. OBTENER LOS OBJETOS HTML (Identifikatzailea lortu)
 // El ID 'botoia' debe coincidir con el ID del botón en tu HTML.
-const aktibazioBotoia = document.getElementById('botoia'); 
+const aktibazioBotoia = document.getElementById('1botoi'); 
 const imagen = document.getElementById('miImagen');
 
 // 2. DEFINIR LA ACCIÓN (Ekintza definitu)
