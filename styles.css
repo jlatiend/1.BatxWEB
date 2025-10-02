@@ -48,7 +48,7 @@ a:hover {
 #miImagen {
     /* Propiedades de visualización y tamaño */
     display: none; /* LA CLAVE: Oculta la imagen al inicio */
-    width: 300px; 
+    width: 400px; 
     height: auto;
     margin: 20px auto; /* Centra la imagen */
 
