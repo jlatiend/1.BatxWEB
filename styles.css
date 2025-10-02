@@ -34,35 +34,36 @@ ul {
 /* Esteken estiloa */
 a {
     color: #007bff;
-    text-decoration: none; /* Estekaren azpiko marra kentzen du */
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; /* Sagua gainean jartzean azpiko marra agertzen da */
+    text-decoration: underline;
 }
 
-/* Irudiaren estiloa */
-img {
-    display: block;
-    margin: 20px auto;
-    border-radius: 50%; /* Irudia borobila bihurtzen du */
-    border: 5px solid #007bff;
+/* ------------------------------------------------------------------ */
+/* ESTILOS ESPECÍFICOS: Aquí ponemos el estilo de la imagen que controlamos */
+/* ------------------------------------------------------------------ */
+
+#miImagen {
+    /* Propiedades de visualización y tamaño */
+    display: none; /* LA CLAVE: Oculta la imagen al inicio */
+    width: 300px; 
+    height: auto;
+    margin: 20px auto; /* Centra la imagen */
+
+    /* Estilos estéticos de la imagen (movidos de la regla general 'img') */
+    border-radius: 50%; /* La hace redonda */
+    border: 5px solid #007bff; /* Borde azul */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
- #miImagen {
-            width: 300px; /* Tamaño de la imagen */
-            height: auto;
-            border: 2px solid #333;
-            margin-top: 20px;
-            /* La clave en CSS: ocultamos la imagen al inicio */
-            display: none; 
-        }
-        .boton-mostrar {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
+
+.boton-mostrar {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
