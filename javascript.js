@@ -21,5 +21,5 @@ function erakutsiOrain() {
 }
 
 // 3. ASIGNAR EL ESCUCHADOR DE EVENTOS (Konektatu ekintza)
-// Esto va FUERA de la función, para que se asigne una sola vez al cargar la página.
+// Hau funtziaren kanpoan doa; orria kargatzearekin batera martxan hasteko.
 aktibazioBotoia.addEventListener('click', erakutsiOrain);
