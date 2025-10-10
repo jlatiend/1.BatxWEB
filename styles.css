@@ -43,6 +43,13 @@ a:hover {
     text-decoration: underline;
 }
 
+div {
+   width: 400px; 
+   height: auto; 
+}
+
+
+
 /* ------------------------------------------------------------------ */
 /* ESTILOS ESPECÍFICOS: Aquí ponemos el estilo de la imagen que controlamos */
 /* ------------------------------------------------------------------ */
