@@ -1,8 +1,9 @@
 
 // Archivo: javascript.js
 
-// 1. OBTENER LOS OBJETOS HTML (Identifikatzailea lortu)
-// El ID 'botoia' debe coincidir con el ID del botón en tu HTML.
+// 1.  HTMLeko objektuak hartu behar dira (Identifikatzailea lortu)
+
+//ID botoiak kointziditu behar du HTMLko botoiaren IDarekin
 const aktibazioBotoia = document.getElementById('botoi'); 
 const imagen = document.getElementById('miImagen');
 
