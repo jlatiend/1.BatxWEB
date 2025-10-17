@@ -94,3 +94,43 @@ div {
   75%  {background-color:green; left:0px; top:200px;}
   100% {background-color:red; left:0px; top:0px;}
 }
+
+/* Gurasoaren estiloa: Eremuari erreferentzia puntua ematen dio */
+.popup-gurasoa {
+    /* Kokapen erlatiboa, barruko pop-upa kokatzeko */
+    position: relative; 
+    /* Botoiaren animazioa ez nahasteko, ezarri gutxieneko zabalera */
+    display: inline-block;
+    margin: 50px; /* Botoia lekuz aldatu baduzu, zentratu. */
+}
+
+/* Pop-up-aren estiloa: Hasieran ezkutatu */
+.pop-up-edukia {
+    /* Kokapen absolutua gurasoarekiko */
+    position: absolute; 
+    /* Pop-upa estilizatu */
+    width: 200px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    
+    /* KLABEA: Hasieran ezkutatu */
+    opacity: 0;
+    visibility: hidden;
+    /* Trantsizioa, sarrera leunagoa izateko */
+    transition: opacity 0.3s, visibility 0.3s;
+    
+    /* Kokapena botoiaren azpian jartzeko adibidea */
+    top: 100%; /* Botoiaren azpian jartzen du */
+    left: 50%;
+    transform: translateX(-50%); /* Zentratu gurasoarekiko */
+    z-index: 10; /* Aurrean agertzeko */
+}
+
+/* HOVER (Saguaren gainetik pasatzean): Pop-upa erakutsi */
+.popup-gurasoa:hover .pop-up-edukia {
+    opacity: 1;
+    visibility: visible;
+}
