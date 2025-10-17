@@ -75,9 +75,16 @@ div {
     color: white;
     border: none;
     border-radius: 5px;
+    
+    /* Mugimendua ahalbidetzeko KLABE berria: */
+    position: relative; 
+    
+    /* Animazioaren propietate osoak gehitu: */
     animation-name: nireAnimazioa;
+    animation-duration: 4s; /* Iraupena ezarri, adibidez 4 segundo */
+    animation-iteration-count: infinite; /* Errepikapena: etengabe */
+    animation-timing-function: linear; /* (Aukerakoa) Abiadura uniformea */
 }
-
 
 /* mugimendua*/
 @keyframes nireAnimazioa {
